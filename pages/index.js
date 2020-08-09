@@ -48,7 +48,6 @@ class HomePage extends Component {
               background: #0F2027;  /* fallback for old browsers */
               background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
               background: linear-gradient(to bottom, #2C5364, #2C5364, #2C5364, #203A43, #2C5364, #203A43, #2C5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-              
             }
             .ui.indicating.progress[data-percent^="0"] .bar, .ui.indicating.progress[data-percent^="1"] .bar,
             .ui.indicating.progress[data-percent^="2"] .bar, .ui.indicating.progress[data-percent^="3"] .bar,
@@ -94,7 +93,7 @@ class HomePage extends Component {
             <Skills />
           </div>
 
-          <Segment inverted vertical style={{ padding: '4.5em 0em', opacity:0.9 }}>
+          <Segment inverted vertical style={{ padding: '4.5em 0em' }}>
             <div className="intro">
               <Container text textAlign='center'>
                 <Header inverted as='h2' dividing> You've reached the end of my website! </Header>
@@ -106,10 +105,10 @@ class HomePage extends Component {
               </Container>
             </div>
           </Segment>
-          <Segment inverted vertical style={{ opacity:0.95 }}>
+          <Segment inverted vertical>
             <div className="intro">
               <Container text textAlign='center'>
-                <p>© 2020 Aneesh Didwania | Media</p>
+                <p>© 2020 Aneesh Didwania | <a href='https://github.com/AneeshDidwania/website/blob/master/Copyrights.md'>Media</a></p>
               </Container>
             </div>
           </Segment>

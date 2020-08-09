@@ -28,7 +28,7 @@ export default class Projects extends Component {
               </Card>
             </Grid.Column>
             <Grid.Column width={4}>
-              <Card fluid style={{ backgroundColor: '#d8e7ec' }}>
+              <Card fluid style={{ backgroundColor: '#d8e7ec' }} href='https://website.aneeshdidwania.vercel.app'>
                 <Image src='images/WebDesign.jpg' wrapped ui={false} />
                 <Card.Content>
                   <Card.Header>My Website</Card.Header>

@@ -18,12 +18,12 @@ Github.svg : [Source](https://iconmonstr.com/github-1-svg/)
 
 LinkedIn.svg : [Source](https://iconmonstr.com/linkedin-3-svg/)
 
-Subway.jpg : [Source] (https://pixabay.com/photos/indoors-metro-platform-1853976/)
+Subway.jpg : [Source](https://pixabay.com/photos/indoors-metro-platform-1853976/)
 
-Basketball.jpg : [Source] (https://pixabay.com/photos/basket-ball-game-equipment-801708/)
+Basketball.jpg : [Source](https://pixabay.com/photos/basket-ball-game-equipment-801708/)
 
-WebDesign.jpg : [Source] (https://pixabay.com/photos/plans-design-web-design-designer-1867745/)
+WebDesign.jpg : [Source](https://pixabay.com/photos/plans-design-web-design-designer-1867745/)
 
-NewYorkTimes.jpg : [Source] (https://www.pexels.com/photo/woman-holding-the-new-york-times-newspaper-1524146/)
+NewYorkTimes.jpg : [Source](https://www.pexels.com/photo/woman-holding-the-new-york-times-newspaper-1524146/)
 
-Parallax Background CSS : [Source] (https://codepen.io/saransh/pen/BKJun)
+Parallax Background CSS : [Source](https://codepen.io/saransh/pen/BKJun)
