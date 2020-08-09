@@ -86,26 +86,32 @@ class MobileContainer extends Component {
             <Menu.Item
               href='#aboutme'
               name='About Me'
+              onClick={this.handleSidebarHide}
             />
             <Menu.Item
               href='#interests'
               name='Interests'
+              onClick={this.handleSidebarHide}
             />
             <Menu.Item
               href='#experience'
               name='Experience'
+              onClick={this.handleSidebarHide}
             />
             <Menu.Item
               href='#projects'
               name='Projects'
+              onClick={this.handleSidebarHide}
             />
             <Menu.Item
               href='#education'
               name='Education'
+              onClick={this.handleSidebarHide}
             />
             <Menu.Item
               href='#skills'
               name='Skills'
+              onClick={this.handleSidebarHide}
             />
           </Sidebar>
           <Sidebar.Pusher dimmed={sidebarOpened}>
