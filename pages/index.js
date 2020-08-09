@@ -30,12 +30,6 @@ class HomePage extends Component {
               margin-left:5%;
               margin-right:5%;
             }
-            .column.interest {
-              opacity:0.6
-            }
-            .column.interest:hover{
-              opacity:1.0
-            }
             .ui.small.labelone.label {
               text-align: right;
             }
