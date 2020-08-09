@@ -5,6 +5,14 @@ export default class Work extends Component {
   render() {
     return (
       <div className='topic'>
+        <style>{`
+          @media all and (max-width: 768px) {
+            .line {
+              display:none;
+            }
+          }
+        `}</style>
+
         <Divider hidden />
         <Divider hidden />
         <Divider hidden />
@@ -27,9 +35,9 @@ export default class Work extends Component {
                     <a href="https://www.ppg.com" >PPG Industries</a></Card.Header>
                   <Card.Description>
                     <List as='ol'>
-                      <List.Item as='li' value='›' style={{ color: "rgba(0,0,0,.6)" }}>Implementing machine learning and artificial intelligence
+                      <List.Item as='li' value='›' style={{ color: "rgba(0,0,0,.6)" }}>Implemented machine learning and artificial intelligence
                           algorithms to create product recommendations based on consumer spending habits and promotional sales</List.Item>
-                      <List.Item as='li' value='›' style={{ color: "rgba(0,0,0,.6)" }}>Developing an automated Natural Language Processing
+                      <List.Item as='li' value='›' style={{ color: "rgba(0,0,0,.6)" }}>Developed an automated Natural Language Processing
                      Phone Ordering System to streamline a painter's ability to order paint</List.Item>
                       <List.Item as='li' value='›' style={{ color: "rgba(0,0,0,.6)" }}>Designed a system to detect a customer's likelihood
                       to churn based on their past purchasing behaviour</List.Item>
@@ -40,7 +48,10 @@ export default class Work extends Component {
                 </Card.Content>
               </Card>
             </Grid.Column>
-            <div className="line" style={{ height: '200%', background: '#d8e7ec' }}/>
+            <div className="line" style={{
+              height: '200%', background: '#d8e7ec', zIndex: 1, position: 'relative',
+              width: '4px', left: '-2px', right: 0, top: 0
+            }} />
             <Grid.Column width={7} />
             <Grid.Column width={1} />
           </Grid.Row>

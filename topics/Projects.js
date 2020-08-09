@@ -23,12 +23,12 @@ export default class Projects extends Component {
                   <Card.Meta>August 2020</Card.Meta>
                 </Card.Content>
                 <Card.Content extra>
-                  This project analyzes how much publicity the NYT gives the sitting President over the last 20 years. Coming Soon!
+                  This project analyzes how much coverage the NYT gives the sitting President over the last 20 years. Coming Soon!
               </Card.Content>
               </Card>
             </Grid.Column>
             <Grid.Column width={4}>
-              <Card fluid style={{ backgroundColor: '#d8e7ec' }} href='https://website.aneeshdidwania.vercel.app'>
+              <Card fluid style={{ backgroundColor: '#d8e7ec' }} href='https://aneeshdidwania.com'>
                 <Image src='images/WebDesign.jpg' wrapped ui={false} />
                 <Card.Content>
                   <Card.Header>My Website</Card.Header>

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React, { Component } from 'react'
-import { Container, Header, Segment, Transition } from 'semantic-ui-react'
+import { Image, Icon, Container, Header, Segment, Sidebar, Menu, Responsive } from 'semantic-ui-react'
 import Heading from '../components/Header'
 import AboutMe from '../topics/AboutMe.js'
 import Education from '../topics/Education.js'
@@ -10,7 +10,14 @@ import Skills from '../topics/Skills.js'
 import Work from '../topics/Work.js'
 
 class HomePage extends Component {
+  state = {}
+
+  handleSidebarHide = () => this.setState({ sidebarOpened: false })
+
+  handleToggle = () => this.setState({ sidebarOpened: true })
+
   render() {
+    const { sidebarOpened } = this.state
     const visible = true
     return (
       <div>
@@ -28,14 +35,6 @@ class HomePage extends Component {
             }
             .column.interest:hover{
               opacity:1.0
-            }
-            .line {
-              z-index: 1;
-              position: relative;
-              width: 4px;
-              left: -2px;
-              right: 0;
-              top: 0;
             }
             .ui.small.labelone.label {
               text-align: right;
@@ -69,6 +68,71 @@ class HomePage extends Component {
             <Head>
               <title>Aneesh's Portfolio</title>
             </Head>
+            {/* <Responsive maxWidth={768}>
+            <Sidebar.Pushable>
+              <Sidebar
+                as={Menu}
+                animation='overlay'
+                inverted
+                onHide={this.handleSidebarHide}
+                vertical
+                visible={sidebarOpened}
+              >
+                <Menu.Item
+                  href='#aboutme'
+                  name='About Me'
+                />
+                <Menu.Item
+                  href='#interests'
+                  name='Interests'
+                />
+                <Menu.Item
+                  href='#experience'
+                  name='Experience'
+                />
+                <Menu.Item
+                  href='#projects'
+                  name='Projects'
+                />
+                <Menu.Item
+                  href='#education'
+                  name='Education'
+                />
+                <Menu.Item
+                  href='#skills'
+                  name='Skills'
+                />
+              </Sidebar>
+
+              <Sidebar.Pusher dimmed={sidebarOpened}>
+                <Segment
+                  inverted
+                  textAlign='center'
+                  style={{ minHeight: 30, padding: '1em 0em' }}
+                  vertical>
+                  <Container>
+                    <Menu inverted pointing secondary size='small'>
+                      <Menu.Item onClick={this.handleToggle}>
+                        <Icon name='sidebar' />
+                      </Menu.Item>
+                      <Menu.Item position='right'>
+                        <Image src='/Github.svg' href='https://github.com/AneeshDidwania'
+                          size='mini' style={{ width: "30px", padding: '0.2em', marginRight: '0.5em' }} />
+                        <Image src='/LinkedIn.svg' href='https://www.linkedin.com/in/aneeshdidwania/'
+                          size='mini' style={{ width: "30px", padding: '0.2em', marginRight: '0.5em' }} />
+                        <Image src='/Email.svg' href='mailto:aneeshdidwania@berkeley.edu'
+                          size='mini' style={{ width: "30px", padding: '0.2em', marginRight: '0.5em' }} />
+                      </Menu.Item>
+                    </Menu>
+                  </Container>
+                </Segment>
+              </Sidebar.Pusher>
+            </Sidebar.Pushable>
+            </Responsive>
+            <Responsive minWidth={768}>
+            <Heading />
+            </Responsive> */}
+
             <Heading />
             <AboutMe />
           </div>
@@ -96,9 +160,8 @@ class HomePage extends Component {
           <Segment inverted vertical style={{ padding: '4.5em 0em' }}>
             <div className="intro">
               <Container text textAlign='center'>
-                <Header inverted as='h2' dividing> You've reached the end of my website! </Header>
                 <p>
-                  If you have any suggestions for project ideas, skills improvement, or just want to chat
+                  If you have any suggestions for project ideas, restaurants to try, or just want to chat
                   please feel free to email me at <a href='mailto:aneeshdidwania@berkeley.edu?subject = 
                   Feedback&body = Message'>aneeshdidwania@berkeley.edu</a>
                 </p>
