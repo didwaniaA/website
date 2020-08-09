@@ -63,118 +63,55 @@ class HomePage extends Component {
               color: azure
             }
       `}</style>
+          <Heading>
 
-          <div id="aboutme">
-            <Head>
-              <title>Aneesh's Portfolio</title>
-            </Head>
-            {/* <Responsive maxWidth={768}>
-            <Sidebar.Pushable>
-              <Sidebar
-                as={Menu}
-                animation='overlay'
-                inverted
-                onHide={this.handleSidebarHide}
-                vertical
-                visible={sidebarOpened}
-              >
-                <Menu.Item
-                  href='#aboutme'
-                  name='About Me'
-                />
-                <Menu.Item
-                  href='#interests'
-                  name='Interests'
-                />
-                <Menu.Item
-                  href='#experience'
-                  name='Experience'
-                />
-                <Menu.Item
-                  href='#projects'
-                  name='Projects'
-                />
-                <Menu.Item
-                  href='#education'
-                  name='Education'
-                />
-                <Menu.Item
-                  href='#skills'
-                  name='Skills'
-                />
-              </Sidebar>
+            <div id="aboutme">
+              <Head>
+                <title>Aneesh's Portfolio</title>
+              </Head>
+              <AboutMe />
+            </div>
 
-              <Sidebar.Pusher dimmed={sidebarOpened}>
-                <Segment
-                  inverted
-                  textAlign='center'
-                  style={{ minHeight: 30, padding: '1em 0em' }}
-                  vertical>
-                  <Container>
-                    <Menu inverted pointing secondary size='small'>
-                      <Menu.Item onClick={this.handleToggle}>
-                        <Icon name='sidebar' />
-                      </Menu.Item>
-                      <Menu.Item position='right'>
-                        <Image src='/Github.svg' href='https://github.com/AneeshDidwania'
-                          size='mini' style={{ width: "30px", padding: '0.2em', marginRight: '0.5em' }} />
-                        <Image src='/LinkedIn.svg' href='https://www.linkedin.com/in/aneeshdidwania/'
-                          size='mini' style={{ width: "30px", padding: '0.2em', marginRight: '0.5em' }} />
-                        <Image src='/Email.svg' href='mailto:aneeshdidwania@berkeley.edu'
-                          size='mini' style={{ width: "30px", padding: '0.2em', marginRight: '0.5em' }} />
-                      </Menu.Item>
-                    </Menu>
-                  </Container>
-                </Segment>
-              </Sidebar.Pusher>
-            </Sidebar.Pushable>
-            </Responsive>
-            <Responsive minWidth={768}>
-            <Heading />
-            </Responsive> */}
+            <div id='interests'>
+              <Interests />
+            </div>
 
-            <Heading />
-            <AboutMe />
-          </div>
+            <div id='experience'>
+              <Work />
+            </div>
 
-          <div id='interests'>
-            <Interests />
-          </div>
+            <div id='projects'>
+              <Projects />
+            </div>
 
-          <div id='experience'>
-            <Work />
-          </div>
+            <div id='education'>
+              <Education />
+            </div>
 
-          <div id='projects'>
-            <Projects />
-          </div>
+            <div id='skills'>
+              <Skills />
+            </div>
 
-          <div id='education'>
-            <Education />
-          </div>
-
-          <div id='skills'>
-            <Skills />
-          </div>
-
-          <Segment inverted vertical style={{ padding: '4.5em 0em' }}>
-            <div className="intro">
-              <Container text textAlign='center'>
-                <p>
-                  If you have any suggestions for project ideas, restaurants to try, or just want to chat
+            <Segment inverted vertical style={{ padding: '4.5em 0em' }}>
+              <div className="intro">
+                <Container text textAlign='center'>
+                  <p>
+                    If you have any suggestions for project ideas, restaurants to try, or just want to chat
                   please feel free to email me at <a href='mailto:aneeshdidwania@berkeley.edu?subject = 
                   Feedback&body = Message'>aneeshdidwania@berkeley.edu</a>
-                </p>
-              </Container>
-            </div>
-          </Segment>
-          <Segment inverted vertical>
-            <div className="intro">
-              <Container text textAlign='center'>
-                <p>© 2020 Aneesh Didwania | <a href='https://github.com/AneeshDidwania/website/blob/master/Copyrights.md'>Media</a></p>
-              </Container>
-            </div>
-          </Segment>
+                  </p>
+                </Container>
+              </div>
+            </Segment>
+            <Segment inverted vertical>
+              <div className="intro">
+                <Container text textAlign='center'>
+                  <p>© 2020 Aneesh Didwania | <a href='https://github.com/AneeshDidwania/website/blob/master/Copyrights.md'>Media</a></p>
+                </Container>
+              </div>
+            </Segment>
+          </Heading>
+
         </div>
       </div>
     )
