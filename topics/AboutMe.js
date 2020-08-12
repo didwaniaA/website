@@ -18,10 +18,10 @@ export default class AboutMe extends Component {
           <Divider hidden />
           <p style={{ fontSize: '1em', color: '#FFFFFF' }}>
             As a vegetarian, I've always enjoyed restaurants that can use a motley assortment of ingredients
-            to fashion beautiful mouthwatering dishes that don't fall into convential cuisine categories like
+            to fashion beautiful mouthwatering dishes that don't fall into conventional cuisine categories like
             Mexican, Chinese, or Italian. Ever since visiting amazing places like <a href='https://www.rolfanddaughters.com/'>
               Rolf And Daughter</a>, <a href='https://www.twohandsnyc.com/'>Two Hands</a>, and
-            <a href='http://xixany.com/'> XIXA</a> by accident, I've wanted to disrupt into the
+            <a href='http://xixany.com/'> XIXA</a> by accident, I've wanted to disrupt the
             restaurant industry, in particular doing data analysis to create meaningful restaurant recommendations.</p>
           <Divider hidden />
           <p style={{ fontSize: '1em', color: '#FFFFFF' }}>
