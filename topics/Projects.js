@@ -20,7 +20,7 @@ export default class Projects extends Component {
                 <Image src='images/NewYorkTimes.jpg' wrapped ui={false} />
                 <Card.Content>
                   <Card.Header>The New York Times</Card.Header>
-                  <Card.Meta>September 2020</Card.Meta>
+                  <Card.Meta>November 2020</Card.Meta>
                 </Card.Content>
                 <Card.Content extra>
                   This project analyzes how much coverage the NYT gives the sitting President over the last 20 years. Coming Soon!
