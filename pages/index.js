@@ -21,6 +21,7 @@ class HomePage extends Component {
     const visible = true
     return (
       <div>
+        <meta name="robots" content="noindex,nofollow,noimageindex"/>
         <div id='stars'></div>
         <div id='stars2'></div>
         <div id='stars3'></div>
