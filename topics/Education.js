@@ -16,8 +16,8 @@ export default class Education extends Component {
           <Grid.Row>
             <GridColumn centered verticalAlign='middle'>
               <Container fluid text textAlign='center'>
-                <Header as='h3' inverted> Data Science & Statistics Major - Business/Industrial Analytics</Header>
-                <Header as='h5' inverted style={{ marginTop: 0 }}>Junior (Graduating May 2022)</Header>
+                <Header as='h3' inverted> Data Science Major - Business Analytics, Economics, Human Behavior</Header>
+                <Header as='h5' inverted style={{ marginTop: 0 }}>Senior (Graduating May 2022)</Header>
               </Container>
             </GridColumn>
           </Grid.Row>

@@ -23,9 +23,29 @@ export default class AccordionDataScience extends Component {
           onClick={this.handleClick}
         >
           <Icon name='dropdown' />
-          <b>Principles & Techniques of Data Science</b>
+          <b>Data Mining & Analytics</b>
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 0} style={{ paddingLeft: '1.5em' }}>
+          <List as='ol'>
+            <List.Item as='li' value='›'>
+              <p>Explored various data science algorithms (Regression, Clustering, Neural Networks, etc.) and 
+                tools to perform predictive analytics</p>
+            </List.Item>
+            <List.Item as='li' value='›'>
+              <p>Skills: <i>Python (Pandas, Scikit-Learn, PyTorch, TensorFlow, Seaborn, Plotly)</i></p>
+            </List.Item>
+          </List>
+        </Accordion.Content>
+        
+        <Accordion.Title
+          active={activeIndex === 1}
+          index={1}
+          onClick={this.handleClick}
+        >
+          <Icon name='dropdown' />
+          <b>Principles & Techniques of Data Science</b>
+        </Accordion.Title>
+        <Accordion.Content active={activeIndex === 1} style={{ paddingLeft: '1.5em' }}>
           <List as='ol'>
             <List.Item as='li' value='›'>
               <p>Explored key areas of data science including question formulation,
@@ -39,14 +59,14 @@ export default class AccordionDataScience extends Component {
         </Accordion.Content>
 
         <Accordion.Title
-          active={activeIndex === 1}
-          index={1}
+          active={activeIndex === 2}
+          index={2}
           onClick={this.handleClick}
         >
           <Icon name='dropdown' />
           <b>Concepts in Computing with Data</b>
         </Accordion.Title>
-        <Accordion.Content active={activeIndex === 1} style={{ paddingLeft: '1.5em' }}>
+        <Accordion.Content active={activeIndex === 2} style={{ paddingLeft: '1.5em' }}>
           <List as='ol'>
             <List.Item as='li' value='›'>
               <p>Utilized principles of data manipulation (e.g. wrangling, reshaping, tidying)
@@ -60,14 +80,14 @@ export default class AccordionDataScience extends Component {
         </Accordion.Content>
 
         <Accordion.Title
-          active={activeIndex === 2}
-          index={2}
+          active={activeIndex === 3}
+          index={3}
           onClick={this.handleClick}
         >
           <Icon name='dropdown' />
           <b>Data Science for Smart Cities</b>
         </Accordion.Title>
-        <Accordion.Content active={activeIndex === 2} style={{ paddingLeft: '1.5em' }}>
+        <Accordion.Content active={activeIndex === 3} style={{ paddingLeft: '1.5em' }}>
           <List as='ol'>
             <List.Item as='li' value='›'>
               <p>Studied the complex urban systems and cities in the light of network science
@@ -78,15 +98,16 @@ export default class AccordionDataScience extends Component {
             </List.Item>
           </List>
         </Accordion.Content>
+
         <Accordion.Title
-          active={activeIndex === 3}
-          index={3}
+          active={activeIndex === 4}
+          index={4}
           onClick={this.handleClick}
         >
           <Icon name='dropdown' />
           <b>Computational Structures in Data Science</b>
         </Accordion.Title>
-        <Accordion.Content active={activeIndex === 3} style={{ paddingLeft: '1.5em' }}>
+        <Accordion.Content active={activeIndex === 4} style={{ paddingLeft: '1.5em' }}>
           <List as='ol'>
             <List.Item as='li' value='›'>
               <p>Learned foundations of programming languages through functional
@@ -98,14 +119,14 @@ export default class AccordionDataScience extends Component {
           </List>
         </Accordion.Content>
         <Accordion.Title
-          active={activeIndex === 4}
-          index={4}
+          active={activeIndex === 5}
+          index={5}
           onClick={this.handleClick}
         >
           <Icon name='dropdown' />
           <b>Data Structures</b>
         </Accordion.Title>
-        <Accordion.Content active={activeIndex === 4} style={{ paddingLeft: '1.5em' }}>
+        <Accordion.Content active={activeIndex === 5} style={{ paddingLeft: '1.5em' }}>
           <List as='ol'>
             <List.Item as='li' value='›'>
               <p>Explored the creation of data structures and efficient programming methods
@@ -118,14 +139,14 @@ export default class AccordionDataScience extends Component {
         </Accordion.Content>
 
         <Accordion.Title
-          active={activeIndex === 5}
-          index={5}
+          active={activeIndex === 6}
+          index={6}
           onClick={this.handleClick}
         >
           <Icon name='dropdown' />
           <b>Foundations of Data Science</b>
         </Accordion.Title>
-        <Accordion.Content active={activeIndex === 5} style={{ paddingLeft: '1.5em' }}>
+        <Accordion.Content active={activeIndex === 6} style={{ paddingLeft: '1.5em' }}>
           <List as='ol'>
             <List.Item as='li' value='›'>
               <p>Learned critical concepts and skills in computer
@@ -139,14 +160,30 @@ export default class AccordionDataScience extends Component {
         </Accordion.Content>
 
         <Accordion.Title
-          active={activeIndex === 6}
-          index={6}
+          active={activeIndex === 7}
+          index={7}
+          onClick={this.handleClick}
+        >
+          <Icon name='dropdown' />
+          <b>Concepts of Statistics</b>
+        </Accordion.Title>
+        <Accordion.Content active={activeIndex === 7} style={{ paddingLeft: '1.5em' }}>
+          <List as='ol'>
+            <List.Item as='li' value='›'>
+              <p>Explored important topics in sampling, prediction methods, and biases</p>
+            </List.Item>
+          </List>
+        </Accordion.Content>
+
+        <Accordion.Title
+          active={activeIndex === 8}
+          index={8}
           onClick={this.handleClick}
         >
           <Icon name='dropdown' />
           <b>Concepts of Probability</b>
         </Accordion.Title>
-        <Accordion.Content active={activeIndex === 6} style={{ paddingLeft: '1.5em' }}>
+        <Accordion.Content active={activeIndex === 8} style={{ paddingLeft: '1.5em' }}>
           <List as='ol'>
             <List.Item as='li' value='›'>
               <p>Explored important probability concepts and distributions</p>
@@ -155,14 +192,14 @@ export default class AccordionDataScience extends Component {
         </Accordion.Content>
 
         <Accordion.Title
-          active={activeIndex === 7}
-          index={7}
+          active={activeIndex === 9}
+          index={9}
           onClick={this.handleClick}
         >
           <Icon name='dropdown' />
           <b>Introduction to Probability and Statistics</b>
         </Accordion.Title>
-        <Accordion.Content active={activeIndex === 7} style={{ paddingLeft: '1.5em' }}>
+        <Accordion.Content active={activeIndex === 9} style={{ paddingLeft: '1.5em' }}>
           <List as='ol'>
             <List.Item as='li' value='›'>
               <p>Learned about various statistical concepts and methods

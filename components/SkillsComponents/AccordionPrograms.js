@@ -65,6 +65,41 @@ export default class AccordionPrograms extends Component {
 						</Accordion>
 					</Accordion.Content>
 
+					
+
+
+					<Accordion.Title
+						active={activeIndex === 2}
+						index={2}
+						onClick={this.handleClick}>
+						<Grid>
+							<GridColumn width={10}>  <Icon name='dropdown' /> <b>Visualization</b> </GridColumn>
+							<GridColumn width={6}> <Progress7 /> </GridColumn>
+						</Grid>
+					</Accordion.Title>
+					<Accordion.Content active={activeIndex === 2} style={{ paddingLeft: '1.5em' }}>
+						<Accordion style={{backgroundColor:'#f2f7f9'}}>
+							<Accordion.Title  style={{ cursor:'auto'}}>
+								<Grid>
+									<GridColumn width={10}> <b>MS Excel</b> </GridColumn>
+									<GridColumn width={6}> <Progress8 /> </GridColumn>
+								</Grid>
+							</Accordion.Title>
+							<Accordion.Title  style={{ cursor:'auto'}}>
+								<Grid>
+									<GridColumn width={10}> <b>MS PowerPoint</b> </GridColumn>
+									<GridColumn width={6}> <Progress7 /> </GridColumn>
+								</Grid>
+							</Accordion.Title>
+							<Accordion.Title  style={{ cursor:'auto'}}>
+								<Grid>
+									<GridColumn width={10}> <b>Tableau</b> </GridColumn>
+									<GridColumn width={6}> <Progress6 /> </GridColumn>
+								</Grid>
+							</Accordion.Title>
+						</Accordion>
+					</Accordion.Content>
+
 					<Accordion.Title
 						active={activeIndex === 0}
 						index={0}
@@ -106,39 +141,6 @@ export default class AccordionPrograms extends Component {
 						</Accordion>
 					</Accordion.Content>
 
-
-
-					<Accordion.Title
-						active={activeIndex === 2}
-						index={2}
-						onClick={this.handleClick}>
-						<Grid>
-							<GridColumn width={10}>  <Icon name='dropdown' /> <b>Visualization</b> </GridColumn>
-							<GridColumn width={6}> <Progress6 /> </GridColumn>
-						</Grid>
-					</Accordion.Title>
-					<Accordion.Content active={activeIndex === 2} style={{ paddingLeft: '1.5em' }}>
-						<Accordion style={{backgroundColor:'#f2f7f9'}}>
-							<Accordion.Title  style={{ cursor:'auto'}}>
-								<Grid>
-									<GridColumn width={10}> <b>MS Powerpoint</b> </GridColumn>
-									<GridColumn width={6}> <Progress7 /> </GridColumn>
-								</Grid>
-							</Accordion.Title>
-							<Accordion.Title  style={{ cursor:'auto'}}>
-								<Grid>
-									<GridColumn width={10}> <b>MS Excel</b> </GridColumn>
-									<GridColumn width={6}> <Progress5 /> </GridColumn>
-								</Grid>
-							</Accordion.Title>
-							<Accordion.Title  style={{ cursor:'auto'}}>
-								<Grid>
-									<GridColumn width={10}> <b>Tableau</b> </GridColumn>
-									<GridColumn width={6}> <Progress5 /> </GridColumn>
-								</Grid>
-							</Accordion.Title>
-						</Accordion>
-					</Accordion.Content>
 
 					<Accordion.Title
 						active={activeIndex === 3}

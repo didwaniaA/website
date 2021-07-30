@@ -13,21 +13,9 @@ export default class Projects extends Component {
         <Divider hidden />
         <Divider hidden />
         <Divider hidden />
-        <Grid stackable>
+        <Grid columns={3} stackable>
           <Grid.Row style={{ paddingBottom: 0 }}>
-            <Grid.Column width={4}>
-              <Card fluid style={{ backgroundColor: '#d8e7ec' }}>
-                <Image src='images/NewYorkTimes.jpg' wrapped ui={false} />
-                <Card.Content>
-                  <Card.Header>The New York Times</Card.Header>
-                  <Card.Meta>February 2021</Card.Meta>
-                </Card.Content>
-                <Card.Content extra>
-                  This project analyzes how much coverage the NYT gives the sitting President over the last 20 years. Coming Soon!
-              </Card.Content>
-              </Card>
-            </Grid.Column>
-            <Grid.Column width={4}>
+            <Grid.Column>
               <Card fluid style={{ backgroundColor: '#d8e7ec' }} href='https://aneeshdidwania.com'>
                 <Image src='images/WebDesign.jpg' wrapped ui={false} />
                 <Card.Content>
@@ -39,8 +27,8 @@ export default class Projects extends Component {
               </Card.Content>
               </Card>
             </Grid.Column>
-            <Grid.Column width={4}>
-              <Card fluid style={{ backgroundColor: '#d8e7ec' }} href='https://github.com/AneeshDidwania/NBAPlayerSalaryBins'>
+            <Grid.Column>
+              <Card fluid style={{ backgroundColor: '#d8e7ec' }} href='https://github.com/didwaniaA/NBAPlayerSalaryBins'>
                 <Image src='images/Basketball.jpg' wrapped ui={false} />
                 <Card.Content>
                   <Card.Header>NBA Players' Salary</Card.Header>
@@ -51,8 +39,8 @@ export default class Projects extends Component {
               </Card.Content>
               </Card>
             </Grid.Column>
-            <Grid.Column width={4}>
-              <Card fluid style={{ backgroundColor: '#d8e7ec' }} href='https://github.com/AneeshDidwania/NYCSubwaySystem'>
+            <Grid.Column>
+              <Card fluid style={{ backgroundColor: '#d8e7ec' }} href='https://github.com/didwaniaA/NYCSubwaySystem'>
                 <Image src='images/Subway.jpg' wrapped ui={false} />
                 <Card.Content>
                   <Card.Header>NYC Subway System</Card.Header>

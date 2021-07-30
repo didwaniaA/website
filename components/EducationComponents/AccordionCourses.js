@@ -41,6 +41,9 @@ export default class AccordionSchooling extends Component {
         <Accordion.Content active={activeIndex === 1} style={{ paddingLeft: '1.5em' }}>
         <List as='ol'>
             <List.Item as='li' value='›'>
+            <p>Human Contexts and Ethics of Data - DATA/History/STS</p>
+            </List.Item>
+            <List.Item as='li' value='›'>
             <p>Linear Algebra and Differential Equations</p>
             </List.Item>
             <List.Item as='li' value='›'>
@@ -57,6 +60,21 @@ export default class AccordionSchooling extends Component {
             </List.Item>
             <List.Item as='li' value='›'>
             <p>Introduction to Economics</p>
+            </List.Item>
+            <List.Item as='li' value='›'>
+            <p>Economic Analysis - Micro</p>
+            </List.Item>
+            <List.Item as='li' value='›'>
+            <p>Business Analytics</p>
+            </List.Item>
+            <List.Item as='li' value='›'>
+            <p>Sociology and Political Ecology of Agro-Food Systems</p>
+            </List.Item>
+            <List.Item as='li' value='›'>
+            <p>Bioinspired Design</p>
+            </List.Item>
+            <List.Item as='li' value='›'>
+            <p>Psychology</p>
             </List.Item>
             <List.Item as='li' value='›'>
             <p>Science of Human Happiness</p>

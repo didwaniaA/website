@@ -77,8 +77,22 @@ export default class AccordionLanguages extends Component {
 
 				<Accordion.Title style={{ cursor:'auto'}}>
 					<Grid>
+						<GridColumn width={10}> <b>Excel VBA</b> </GridColumn>
+						<GridColumn width={6}> <Progress7/> </GridColumn>
+					</Grid>
+				</Accordion.Title>
+
+				<Accordion.Title style={{ cursor:'auto'}}>
+					<Grid>
 						<GridColumn width={10}> <b>PostgreSQL, MySQL, SQLite</b> </GridColumn>
 						<GridColumn width={6}> <Progress7/> </GridColumn>
+					</Grid>
+				</Accordion.Title>
+
+				<Accordion.Title style={{ cursor:'auto'}}>
+					<Grid>
+						<GridColumn width={10}> <b>SAS</b> </GridColumn>
+						<GridColumn width={6}> <Progress6/> </GridColumn>
 					</Grid>
 				</Accordion.Title>
 

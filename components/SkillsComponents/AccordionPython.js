@@ -76,6 +76,14 @@ export default class AccordionPython extends Component {
 
 					<Accordion.Title style={{ cursor:'auto'}}>
 						<Grid>
+							<GridColumn width={10}> <b>TensorFlow</b> </GridColumn>
+							<GridColumn width={6}> <Progress6 /> </GridColumn>
+						</Grid>
+					</Accordion.Title>
+
+
+					<Accordion.Title style={{ cursor:'auto'}}>
+						<Grid>
 							<GridColumn width={10}> <b>Seaborn</b> </GridColumn>
 							<GridColumn width={6}> <Progress6 /> </GridColumn>
 						</Grid>
@@ -97,7 +105,7 @@ export default class AccordionPython extends Component {
 
 					<Accordion.Title style={{ cursor:'auto'}}>
 						<Grid>
-							<GridColumn width={10}> <b>Pytorch</b> </GridColumn>
+							<GridColumn width={10}> <b>PyTorch</b> </GridColumn>
 							<GridColumn width={6}> <Progress5 /> </GridColumn>
 						</Grid>
 					</Accordion.Title>
