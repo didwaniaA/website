@@ -42,8 +42,6 @@ export default class Skills extends Component {
           </Grid.Row>
         </Grid>
         <Divider hidden />
-        <Divider hidden />
-        <Divider hidden />
       </div>
     )
   }

@@ -16,18 +16,6 @@ export default class Projects extends Component {
         <Grid columns={3} stackable>
           <Grid.Row style={{ paddingBottom: 0 }}>
             <Grid.Column>
-              <Card fluid style={{ backgroundColor: '#d8e7ec' }} href='https://aneeshdidwania.com'>
-                <Image src='images/WebDesign.jpg' wrapped ui={false} />
-                <Card.Content>
-                  <Card.Header>My Website</Card.Header>
-                  <Card.Meta>August 2020</Card.Meta>
-                </Card.Content>
-                <Card.Content extra>
-                  This was a project to create my first website using React, Next.Js, and Semantic UI.
-              </Card.Content>
-              </Card>
-            </Grid.Column>
-            <Grid.Column>
               <Card fluid style={{ backgroundColor: '#d8e7ec' }} href='https://github.com/didwaniaA/NBAPlayerSalaryBins'>
                 <Image src='images/Basketball.jpg' wrapped ui={false} />
                 <Card.Content>
@@ -51,8 +39,25 @@ export default class Projects extends Component {
               </Card.Content>
               </Card>
             </Grid.Column>
+            <Grid.Column>
+              <Card fluid style={{ backgroundColor: '#d8e7ec' }} href='https://aneeshdidwania.com'>
+                <Image src='images/WebDesign.jpg' wrapped ui={false} />
+                <Card.Content>
+                  <Card.Header>My Website</Card.Header>
+                  <Card.Meta>April 2020</Card.Meta>
+                </Card.Content>
+                <Card.Content extra>
+                  This was a project to create my first website using React, Next.Js, and Semantic UI.
+              </Card.Content>
+              </Card>
+            </Grid.Column>
           </Grid.Row>
         </Grid>
+        <Divider hidden />
+        <Divider hidden />
+        <Divider hidden />
+        <Divider hidden />
+
       </div>
 
     )

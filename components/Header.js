@@ -31,16 +31,16 @@ class DesktopContainer extends Component {
               name='Experience'
             />
             <Menu.Item
-              href='#projects'
-              name='Projects'
+              href='#skills'
+              name='Skills'
             />
             <Menu.Item
               href='#education'
               name='Education'
             />
             <Menu.Item
-              href='#skills'
-              name='Skills'
+              href='#projects'
+              name='Projects'
             />
             <Menu.Item position='right'>
               <Image src='/Github.svg' href='https://github.com/AneeshDidwania'

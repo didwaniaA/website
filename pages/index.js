@@ -75,23 +75,23 @@ class HomePage extends Component {
               <Work />
             </div>
 
-            <div id='projects'>
-              <Projects />
+            <div id='skills'>
+              <Skills />
             </div>
 
             <div id='education'>
               <Education />
             </div>
 
-            <div id='skills'>
-              <Skills />
+            <div id='projects'>
+              <Projects />
             </div>
 
             <Segment inverted vertical style={{ padding: '4.5em 0em' }}>
               <div className="intro">
                 <Container text textAlign='center'>
                   <p>
-                    If you have any suggestions for project ideas, restaurants to try, or just want to chat
+                  If you have any suggestions for project ideas, restaurants to try, or just want to chat
                   please feel free to email me at <a href='mailto:aneeshdidwania@berkeley.edu?subject = 
                   Feedback&body = Message'>aneeshdidwania@berkeley.edu</a>
                   </p>
@@ -101,7 +101,7 @@ class HomePage extends Component {
             <Segment inverted vertical>
               <div className="intro">
                 <Container text textAlign='center'>
-                  <p>© 2020 Aneesh Didwania | <a href='https://github.com/AneeshDidwania/website/blob/master/Copyrights.md'>Media</a></p>
+                  <p>© 2021 Aneesh Didwania | <a href='https://github.com/AneeshDidwania/website/blob/master/Copyrights.md'>Media</a></p>
                 </Container>
               </div>
             </Segment>
