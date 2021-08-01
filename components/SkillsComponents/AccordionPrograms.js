@@ -162,8 +162,22 @@ export default class AccordionPrograms extends Component {
 
 							<Accordion.Title  style={{ cursor:'auto'}}>
 								<Grid>
+									<GridColumn width={10}> <b>Git</b> </GridColumn>
+									<GridColumn width={6}> <Progress7 /> </GridColumn>
+								</Grid>
+							</Accordion.Title>
+
+							<Accordion.Title style={{ cursor:'auto'}}>
+								<Grid>
 									<GridColumn width={10}> <b>JSON/XML</b> </GridColumn>
 									<GridColumn width={6}> <Progress6 /> </GridColumn>
+								</Grid>
+							</Accordion.Title>
+
+							<Accordion.Title style={{ cursor:'auto'}}>
+								<Grid>
+									<GridColumn width={10}> <b>Linux/Shell</b> </GridColumn>
+									<GridColumn width={6}> <Progress5 /> </GridColumn>
 								</Grid>
 							</Accordion.Title>
 
@@ -174,26 +188,11 @@ export default class AccordionPrograms extends Component {
 								</Grid>
 							</Accordion.Title>
 
-							<Accordion.Title style={{ cursor:'auto'}}>
-								<Grid>
-									<GridColumn width={10}> <b>Linux</b> </GridColumn>
-									<GridColumn width={6}> <Progress5 /> </GridColumn>
-								</Grid>
-							</Accordion.Title>
-
-
 
 						</Accordion>
 					</Accordion.Content>
 
 
-
-					<Accordion.Title  style={{ cursor:'auto'}}>
-						<Grid>
-							<GridColumn width={10}> <b>Git</b> </GridColumn>
-							<GridColumn width={6}> <Progress5 /> </GridColumn>
-						</Grid>
-					</Accordion.Title>
 
 
 

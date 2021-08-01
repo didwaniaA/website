@@ -13,12 +13,13 @@ export default class AboutMe extends Component {
           <Header as='h1' dividing inverted>Welcome!</Header>
           <p style={{ fontSize: '1em', color: '#FFFFFF' }}>
             My name's Aneesh Didwania and I'm a senior studying Data Science with concentrations in
-            Business Analytics, Economics, and Human Behavior at UC Berkeley. I am now looking for
-            roles where I can supplement my work experience and coursework. I also love to learn, create,
-            and eat out!</p>
+            Business Analytics, Economics, and Human Behavior at UC Berkeley. I am looking for
+            roles starting in the summer of 2022 where I can supplement my work experience and 
+            coursework. I also love to learn, create, and eat out!</p>
           <Divider hidden />
           <p style={{ fontSize: '1em', color: '#FFFFFF' }}>
-            If you have any questions or want to learn more about me, please feel free to email me
+            If you have any questions or want to 
+            learn more about me, please feel free to email me
             at <a href='mailto:aneeshdidwania@berkeley.edu?subject = Feedback&body = Message'>
               aneeshdidwania@berkeley.edu</a>.</p>
         </Container>
